@@ -44,11 +44,11 @@ li {
 
 /* header start */
 .header-area {
-    background: #030712;
+    background: #6e7077;
 }
 .logo img {
-    width: 160px;
-    height: 40px;
+    width: 170px;
+    height: 60px;
 }
 .menu ul {
     display: flex;
@@ -200,7 +200,7 @@ form {
 }
 
 .job-card p {
-    color: #000000;
+    color: #6b7280;
     margin-bottom: 12px;
     display: flex;
     align-items: center;
