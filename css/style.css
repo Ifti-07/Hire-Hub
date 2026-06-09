@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    background: #   ;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* header start */
+.header-area {
+    background: #030712;
+}
+.logo img {
+    width: 160px;
+    height: 40px;
+}
+.menu ul {
+    display: flex;
+    gap: 25px;
+}
+
+.menu ul li a {
+    color: #ddd;
+    display: block;
+    transition: all .5s;
+    padding: 10px 20px;
+}
+
+
+.menu ul li a:hover {
+    color: #fff;
+}
+/* header end */
+
+/* hero start */
+.hero-area {
+    background-image: linear-gradient(to right top, #3f36bd, #3631a2, #2e2b87, #27256d, #211f54);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-area h1 {
+    color: #fff;
+    font-size: 70px;
+    line-height: 1;
+}
+.hero-area p {
+    width: 600px;
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+    padding: 20px 0;
+}
+form {
+    display: flex;
+    width: 740px;
+    background: #1F2937;
+    margin: auto;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 10px;
+}
+.hero-btn {
+    border: none;
+    padding: 10px 20px;
+}
+
+.form-group {
+    background: #111827;
+    padding: 10px;
+}
+
+.form-group input, .form-group select {
+    background: transparent;
+    border: 0;
+    color: #fff;
+}
+.form-group select option{
+    color: #000;
+}
+.form-group i {
+    color: #fff;
+}
+
+.form-group input::placeholder {
+    color: #ddd;
+    text-transform: capitalize;
+}
+.hero-tags .btn {
+    background: #4f46e569;
+    font-size: 12px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 3px 10px;
+    transition: all .5s;
+}
+
+.hero-tags {
+    margin-top: 30px;
+}
+
+.hero-tags .btn:hover {
+    background: #4F46E5;
+} 
+/* hero end */
